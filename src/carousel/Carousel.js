@@ -496,7 +496,7 @@ export default class Carousel extends Component {
 
         if ((activeSlideAlignment === 'start' && !opposite) ||
             (activeSlideAlignment === 'end' && opposite)) {
-            return 0;
+            return 12;
         } else if ((activeSlideAlignment === 'end' && !opposite) ||
             (activeSlideAlignment === 'start' && opposite)) {
             return vertical ? sliderHeight - itemHeight : sliderWidth - itemWidth;
